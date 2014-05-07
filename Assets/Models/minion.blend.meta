@@ -1,0 +1,654 @@
+fileFormatVersion: 2
+guid: 4ec14700c8962094ea55e49fc4662e98
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Control
+    100004: Elbow_L
+    100006: Elbow_R
+    100008: Foot_L
+    100010: Foot_R
+    100012: Head
+    100014: Larm_L
+    100016: Larm_R
+    100018: Leg_L
+    100020: Leg_R
+    100022: //RootNode
+    100024: minion_one_eye
+    100026: Neck
+    100028: Shoulder_L
+    100030: Shoulder_R
+    100032: Stomach
+    100034: Tigh_L
+    100036: Tigh_R
+    100038: Uarm_L
+    100040: Uarm_R
+    400000: Armature
+    400002: Control
+    400004: Elbow_L
+    400006: Elbow_R
+    400008: Foot_L
+    400010: Foot_R
+    400012: Head
+    400014: Larm_L
+    400016: Larm_R
+    400018: Leg_L
+    400020: Leg_R
+    400022: //RootNode
+    400024: minion_one_eye
+    400026: Neck
+    400028: Shoulder_L
+    400030: Shoulder_R
+    400032: Stomach
+    400034: Tigh_L
+    400036: Tigh_R
+    400038: Uarm_L
+    400040: Uarm_R
+    4300000: minion_one_eye
+    7400000: Default Take
+    7400002: Idle
+    7400004: Run
+    7400006: Getup
+    7400008: jump_idle
+    7400010: jump_run
+    7400012: Slide
+    7400014: WallHold
+    9500000: //RootNode
+    13700000: minion_one_eye
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Elbow_L
+        weight: 1
+      - path: Armature/Control/Elbow_R
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L/Foot_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R/Foot_R
+        weight: 1
+      - path: Armature/Control/Stomach/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_L
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_R
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_L
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L/Larm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R/Larm_R
+        weight: 1
+      - path: minion_one_eye
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: -1
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Elbow_L
+        weight: 1
+      - path: Armature/Control/Elbow_R
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L/Foot_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R/Foot_R
+        weight: 1
+      - path: Armature/Control/Stomach/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_L
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_R
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_L
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L/Larm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R/Larm_R
+        weight: 1
+      - path: minion_one_eye
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      firstFrame: -1
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Elbow_L
+        weight: 1
+      - path: Armature/Control/Elbow_R
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L/Foot_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R/Foot_R
+        weight: 1
+      - path: Armature/Control/Stomach/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_L
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_R
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_L
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L/Larm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R/Larm_R
+        weight: 1
+      - path: minion_one_eye
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Getup
+      takeName: Getup
+      firstFrame: -1
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Elbow_L
+        weight: 1
+      - path: Armature/Control/Elbow_R
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L/Foot_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R/Foot_R
+        weight: 1
+      - path: Armature/Control/Stomach/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_L
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_R
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_L
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L/Larm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R/Larm_R
+        weight: 1
+      - path: minion_one_eye
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump_idle
+      takeName: jump_idle
+      firstFrame: -1
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Elbow_L
+        weight: 1
+      - path: Armature/Control/Elbow_R
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L/Foot_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R/Foot_R
+        weight: 1
+      - path: Armature/Control/Stomach/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_L
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_R
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_L
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L/Larm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R/Larm_R
+        weight: 1
+      - path: minion_one_eye
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump_run
+      takeName: jump_run
+      firstFrame: -1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Elbow_L
+        weight: 1
+      - path: Armature/Control/Elbow_R
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L/Foot_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R/Foot_R
+        weight: 1
+      - path: Armature/Control/Stomach/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_L
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_R
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_L
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L/Larm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R/Larm_R
+        weight: 1
+      - path: minion_one_eye
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Slide
+      takeName: Slide
+      firstFrame: -1
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Elbow_L
+        weight: 1
+      - path: Armature/Control/Elbow_R
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L/Foot_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R/Foot_R
+        weight: 1
+      - path: Armature/Control/Stomach/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_L
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_R
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_L
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L/Larm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R/Larm_R
+        weight: 1
+      - path: minion_one_eye
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WallHold
+      takeName: WallHold
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Elbow_L
+        weight: 1
+      - path: Armature/Control/Elbow_R
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_L/Foot_L
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R
+        weight: 1
+      - path: Armature/Control/Stomach/Leg_R/Foot_R
+        weight: 1
+      - path: Armature/Control/Stomach/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_L
+        weight: 1
+      - path: Armature/Control/Stomach/Shoulder_R
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_L
+        weight: 1
+      - path: Armature/Control/Stomach/Tigh_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_L/Larm_L
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R
+        weight: 1
+      - path: Armature/Control/Stomach/Uarm_R/Larm_R
+        weight: 1
+      - path: minion_one_eye
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
